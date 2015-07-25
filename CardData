@@ -1,0 +1,154 @@
+Wizards Vs. Scientists
+ Card Data    							Sorangar
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
+
+['Spearman'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 3;
+  ['Basic defense'] = 5;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = "Kelz'thulad's Spears";
+  ['Trait'] = 'piercing 1';
+  ['Delay'] = 2;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "The standard fighter in the realm of Kelz'thulad IIV";
+};
+['Missy Cupcaik'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'science';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 3;
+  ['Science defense'] = 5;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = False;
+  ['Trait'] = False;
+  ['Delay'] = 2;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "The Master of the Chemistry of cupcake making.";
+};
+['Forest Maiden'] = {
+  ['Battle style'] = 'defensive';
+  ['Card type'] = 'magic';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 3;
+  ['Magic defense'] = 5;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = False;
+  ['Trait'] = False;
+  ['Delay'] = 2;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Orc Grunt'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 4;
+  ['Basic defense'] = 4;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = "Orcs";
+  ['Trait'] = False;
+  ['Delay'] = 1;
+  ['Health'] = 7;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Orc Brute'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 6;
+  ['Basic defense'] = 2;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 1;
+  ['Science attack'] = 0;
+  ['Science defense'] = 1;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = "Orcs";
+  ['Trait'] = 'spiky 1';
+  ['Delay'] = 2;
+  ['Health'] = 7;
+  ['Description'] = false;
+  ['Lore'] = "Some of the best armor an Orc can get";
+};
+['Orc Boltspitter'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 5;
+  ['Basic defense'] = 4;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 2;
+  ['Rarity'] = 'common';
+  ['Army'] = "Orcs";
+  ['Trait'] = 'piercing 1';
+  ['Delay'] = 3;
+  ['Health'] = 3;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Archer'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 5;
+  ['Basic defense'] = 4;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = False;
+  ['Trait'] = False;
+  ['Delay'] = 3;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Astral Isles Sentry'] = {
+  ['Battle style'] = 'defensive';
+  ['Card type'] = 'magic';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = "Kelz'thulad's Spears";
+  ['Trait'] = 'piercing 1';
+  ['Delay'] = 2;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "The standard fighter in the realm of Kelz'thulad IIV";
+};
+
+})
