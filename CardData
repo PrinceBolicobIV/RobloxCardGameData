@@ -35,8 +35,8 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Science defense'] = 5;
   ['Card cost'] = 1;
   ['Rarity'] = 'common';
-  ['Army'] = False;
-  ['Trait'] = False;
+  ['Army'] = false;
+  ['Trait'] = false;
   ['Delay'] = 2;
   ['Health'] = 10;
   ['Description'] = false;
@@ -53,8 +53,8 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Science defense'] = 0;
   ['Card cost'] = 1;
   ['Rarity'] = 'common';
-  ['Army'] = False;
-  ['Trait'] = False;
+  ['Army'] = false;
+  ['Trait'] = false;
   ['Delay'] = 2;
   ['Health'] = 10;
   ['Description'] = false;
@@ -72,7 +72,7 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Card cost'] = 1;
   ['Rarity'] = 'common';
   ['Army'] = "Orcs";
-  ['Trait'] = False;
+  ['Trait'] = false;
   ['Delay'] = 1;
   ['Health'] = 7;
   ['Description'] = false;
@@ -125,8 +125,8 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Science defense'] = 0;
   ['Card cost'] = 1;
   ['Rarity'] = 'common';
-  ['Army'] = False;
-  ['Trait'] = False;
+  ['Army'] = false;
+  ['Trait'] = false;
   ['Delay'] = 3;
   ['Health'] = 10;
   ['Description'] = false;
