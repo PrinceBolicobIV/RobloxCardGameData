@@ -186,7 +186,7 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Description'] = false;
   ['Lore'] = "";
 };
-['Orinthian Front Line Fighter'] = {
+['Orinthian Defender'] = {
   ['Battle style'] = 'defensive';
   ['Card type'] = 'science';
   ['Basic attack'] = 0;
@@ -204,7 +204,7 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Description'] = false;
   ['Lore'] = "";
 };
-['Orinthian Soldier'] = {
+['Orinthian Battle General'] = {
   ['Battle style'] = 'offensive';
   ['Card type'] = 'science';
   ['Basic attack'] = 0;
@@ -345,6 +345,60 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Trait'] = 'burn 2';
   ['Delay'] = 4;
   ['Health'] = 14;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Astral Isle Apprentice'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'magic';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 4;
+  ['Magic defense'] = 4;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = "Wizards of the Astral Isles";
+  ['Trait'] = false;
+  ['Delay'] = 2;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Head Wizard of the Astral Isles'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'magic';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 1;
+  ['Magic attack'] = 4;
+  ['Magic defense'] = 4;
+  ['Science attack'] = 0;
+  ['Science defense'] = 1;
+  ['Card cost'] = 2;
+  ['Rarity'] = 'uncommon';
+  ['Army'] = "Wizards of the Astral Isles";
+  ['Trait'] = 'piercing 1';
+  ['Delay'] = 3;
+  ['Health'] = 12;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Zeus'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'magic';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 4;
+  ['Magic defense'] = 5;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 2;
+  ['Rarity'] = 'uncommon';
+  ['Army'] = false;
+  ['Trait'] = 'piercing 1';
+  ['Delay'] = 1;
+  ['Health'] = 10;
   ['Description'] = false;
   ['Lore'] = "";
 };
