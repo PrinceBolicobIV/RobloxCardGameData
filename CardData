@@ -24,6 +24,24 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Description'] = false;
   ['Lore'] = "The standard fighter in the realm of Kelz'thulad IIV";
 };
+['Classy Bandit'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 3;
+  ['Basic defense'] = 5;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 1;
+  ['Rarity'] = 'common';
+  ['Army'] = "Bandits";
+  ['Trait'] = 'piercing 1';
+  ['Delay'] = 2;
+  ['Health'] = 10;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
 ['Missy Cupcaik'] = {
   ['Battle style'] = 'offensive';
   ['Card type'] = 'science';
