@@ -294,4 +294,58 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Description'] = false;
   ['Lore'] = "";
 };
+['The Steamroller'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 6;
+  ['Basic defense'] = 5;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 3;
+  ['Rarity'] = 'rare';
+  ['Army'] = "Orcs";
+  ['Trait'] = 'spiky 1';
+  ['Delay'] = 3;
+  ['Health'] = 12;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['Gear Head'] = {
+  ['Battle style'] = 'offensive';
+  ['Card type'] = 'science';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 7;
+  ['Science defense'] = 4;
+  ['Card cost'] = 3;
+  ['Rarity'] = 'rare';
+  ['Army'] = false;
+  ['Trait'] = false;
+  ['Delay'] = 3;
+  ['Health'] = 13;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
+['The Dominus Infernus'] = {
+  ['Battle style'] = 'defensive';
+  ['Card type'] = 'basic';
+  ['Basic attack'] = 4;
+  ['Basic defense'] = 6;
+  ['Magic attack'] = 0;
+  ['Magic defense'] = 0;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 4;
+  ['Rarity'] = 'legendary';
+  ['Army'] = false;
+  ['Trait'] = 'burn 2';
+  ['Delay'] = 4;
+  ['Health'] = 14;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
 })
