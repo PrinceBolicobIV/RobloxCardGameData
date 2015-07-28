@@ -402,4 +402,22 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Description'] = false;
   ['Lore'] = "";
 };
+['The Dread Visage of xMaxiumusx'] = {
+  ['Battle style'] = 'defensive';
+  ['Card type'] = 'magic';
+  ['Basic attack'] = 0;
+  ['Basic defense'] = 0;
+  ['Magic attack'] = 4;
+  ['Magic defense'] = 7;
+  ['Science attack'] = 0;
+  ['Science defense'] = 0;
+  ['Card cost'] = 3;
+  ['Rarity'] = 'rare';
+  ['Army'] = false;
+  ['Trait'] = false;
+  ['Delay'] = 3;
+  ['Health'] = 13;
+  ['Description'] = false;
+  ['Lore'] = "";
+};
 })
