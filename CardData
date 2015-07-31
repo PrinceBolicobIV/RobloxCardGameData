@@ -23,6 +23,9 @@ require(game.ServerScriptService.ModuleScript).Core:SetAsync('Card data',{
   ['Health'] = 10;
   ['Description'] = false;
   ['Lore'] = "The standard fighter in the realm of Kelz'thulad IIV";
+  ['Image'] = false;
+  ['Model'] = false;
+  ['On activate'] = {};
 };
 ['Classy Bandit'] = {
   ['Battle style'] = 'offensive';
